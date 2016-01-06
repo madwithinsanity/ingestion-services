@@ -9,9 +9,7 @@ public interface IngestionService {
 	 * 
 	 * @param originalFile
 	 *            - input file
-	 * @param outputFileLocation
-	 *            - location where the file is dropped after it's ingested
 	 * @return Report
 	 */
-	public File ingestFile(File originalFile, String outputFileLocation);
+	public File ingestFile(File originalFile);
 }
